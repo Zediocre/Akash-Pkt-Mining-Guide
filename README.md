@@ -7,8 +7,8 @@
 first [here](https://www.youtube.com/watch?v=G-kFDTLMT0Y).
 ## 3 Easy Steps
  
- - [Setup Pkt](#setting-up-the-tool)
- - [Akashlytics & Kepler](#deploying )
+ - [Setup Pkt](#Setup-Pkt)
+ - [Akashlytics & Kepler](#Akashlytics-&-Kepler )
  - [Deploying On Akash](#Deploying-On-Akash)
 ## Setup PKT
  - Make a PKT wallet. use [this](http://pkt.world/wallet) one.
