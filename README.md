@@ -7,8 +7,8 @@
 first [here](https://www.youtube.com/watch?v=G-kFDTLMT0Y).
 ## 3 Easy Steps
  
- - [Setting up Pkt](#setting-up-the-tool)
- - [Akashlytics & Wallets](#deploying )
+ - [Setup Pkt](#setting-up-the-tool)
+ - [Akashlytics & Kepler](#deploying )
  - [Deploying On Akash](#Deploying-On-Akash)
 ## Setup PKT
  - Make a PKT wallet. use [this](http://pkt.world/wallet) one.
@@ -18,11 +18,10 @@ first [here](https://www.youtube.com/watch?v=G-kFDTLMT0Y).
 ## Akashlytics and Kepler
 
  - Download and install [this](https://www.akashlytics.com/deploy) tool.
- - Use kepler wallet and Load it with Akash crypto.
- - Send over some AKT ( 15 Recomended ).
- - Create a certificate near the top right corner.
+ - Open kepler wallet and Deposit Akash inside.
+ - Send Over AKT ( 15 Recomended ).
 
-## Deploying
+## Deploying On Akash
 
  - Copy the contents from [this](https://github.com/ovrclk/pkt-miner/blob/main/deploy.yaml) file.
  - In the tool, go to `Deployments` > `Create Deployment`.
