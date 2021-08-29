@@ -1,3 +1,4 @@
+![Image1](https://user-images.githubusercontent.com/79159130/131248440-c69334c8-9e90-4724-86cd-200acbe2f1cd.png)
 
 # Akash/Pkt Mining-Guide (in 5 Minutes)
 Easy to use step by step guid to mine Pkt
