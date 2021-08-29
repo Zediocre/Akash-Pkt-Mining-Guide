@@ -15,7 +15,7 @@ first [here](https://www.youtube.com/watch?v=G-kFDTLMT0Y).
  - use Command Promt to Drag in folder and get private keys
  - Get a PKT address.
  
-## Akashlytics and Kepler
+## Akashlytics & Kepler
 
  - Download and install [this](https://www.akashlytics.com/deploy) tool.
  - Open kepler wallet and Deposit Akash inside.
