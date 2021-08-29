@@ -8,14 +8,14 @@ first [here](https://www.youtube.com/watch?v=G-kFDTLMT0Y).
 ## 3 Easy Steps
  
  - [Setup Pkt](#Setup-Pkt)
- - [Akashlytics & Kepler](#Akashlytics-&-Kepler )
+ - [Akashlytics and Kepler](#Akashlytics-and-Kepler )
  - [Deploying On Akash](#Deploying-On-Akash)
 ## Setup PKT
  - Make a PKT wallet. use [this](http://pkt.world/wallet) one.
  - use Command Promt to Drag in folder and get private keys
  - Get a PKT address.
  
-## Akashlytics & Kepler
+## Akashlytics and Kepler
 
  - Download and install [this](https://www.akashlytics.com/deploy) tool.
  - Open kepler wallet and Deposit Akash inside.
