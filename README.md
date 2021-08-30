@@ -11,7 +11,7 @@ first [here](https://www.youtube.com/watch?v=G-kFDTLMT0Y).
  - [Akashlytics and Kepler](#Akashlytics-and-Kepler )
  - [Deploying On Akash](#Deploying-On-Akash)
 ## Setup PKT
- - Make a PKT wallet. use [this](http://pkt.world/wallet) one.
+ - Make a PKT wallet. use [this](https://pkt.cash/wallet/#setup) one.
  - use Command Promt to Drag in folder and get private keys
  - Get a PKT address.
  
