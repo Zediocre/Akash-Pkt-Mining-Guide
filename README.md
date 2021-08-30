@@ -17,17 +17,17 @@ first [here](https://www.youtube.com/watch?v=G-kFDTLMT0Y).
  
 ## Akashlytics and Kepler
 
- - Download and install [this](https://www.akashlytics.com/deploy) tool.
- - Open kepler wallet and Deposit Akash inside.
- - Send Over AKT ( 15 Recomended ).
+ - Download and install Akashlytics [Here](https://www.akashlytics.com/deploy).
+ - Use your Kepler (Or compatible) wallets Memonics on Akash Deploy setup.
+ - Load your wallet with AKT ( 10 Recomended ).
 
 ## Deploying On Akash
 
  - Copy the contents from [this](https://github.com/ovrclk/pkt-miner/blob/main/deploy.yaml) file.
- - In the tool, go to `Deployments` > `Create Deployment`.
+ - Now go to `Deployments` > `Create Deployment`.
  - Continue forward by pressing Next > then use "Empty".
  - Paste the contents we copied.
- - Swap out the <PKT_WALLET> from `WALLET_ADDR=<PKT_Wallet>` to your wallet. (example in video below)
+ - Swap out the <PKT_WALLET> from `WALLET_ADDR=<PKT_Wallet>` to your wallet. (example in video)
  - Press `Create Deployment`, set fees, and press `Approve`.
- - check your balance by pasting this code in command prompt: bin\pktctl --wallet getaddressbalances
+ - Done! you should be automatically mining PKT :)
  
