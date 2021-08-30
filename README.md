@@ -12,8 +12,8 @@ first [here](https://www.youtube.com/watch?v=G-kFDTLMT0Y).
  - [Deploying On Akash](#Deploying-On-Akash)
 ## Setup PKT
  - Make a PKT wallet. use [this](https://pkt.cash/wallet/#setup) one.
- - use Command Promt to Drag in folder and get private keys
- - Get a PKT address.
+ - Make sure you copy and save your PKT address for later
+ - Keep the PKT wallet running while setting up Akash Deployments.
  
 ## Akashlytics and Kepler
 
