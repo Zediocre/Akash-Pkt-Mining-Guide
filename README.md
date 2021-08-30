@@ -2,9 +2,9 @@
 
 
 
-# Akash/Pkt Mining-Guide (in 5 Minutes)
+# Akash/Pkt Mining-Video Guide (in 5 Minutes)
 (IMPORTANT) Please follow along with this easy explination 
-first [here](https://www.youtube.com/watch?v=G-kFDTLMT0Y).
+first [here](https://youtu.be/YPHFy_sH830).
 ## 3 Easy Step Video Guide
  
  - [Setup Pkt](#Setup-Pkt)
@@ -18,8 +18,8 @@ first [here](https://www.youtube.com/watch?v=G-kFDTLMT0Y).
 ## Akashlytics and Kepler
 
  - Download and install Akashlytics [Here](https://www.akashlytics.com/deploy).
- - Use your Kepler (Or compatible) wallets Memonics on Akash Deploy setup.
- - Load your wallet with AKT ( 10 Recomended ).
+ - Use your Kepler (Or compatible) wallets Memonics for Akash Deploy to sync.
+ - Load your Kepler wallet with AKT ( 10 Recomended ).
 
 ## Deploying On Akash
 
