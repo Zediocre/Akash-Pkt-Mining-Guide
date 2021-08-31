@@ -4,7 +4,7 @@
 
 # Akash/Pkt Mining-Video Guide (in 5 Minutes)
 (IMPORTANT) Please follow along with this easy explination 
-first [here](https://youtu.be/YPHFy_sH830).
+first [here](https://youtu.be/TKkByGqOTiU).
 ## 3 Easy Step Video Guide
  
  - [Setup Pkt](#Setup-Pkt)
