@@ -11,8 +11,8 @@ first [here](https://youtu.be/TKkByGqOTiU).
  - [Akashlytics and Kepler](#Akashlytics-and-Kepler )
  - [Deploying On Akash](#Deploying-On-Akash)
 ## Setup PKT
- - Make a PKT wallet. use [this](https://pkt.cash/wallet/#setup) one.
- - Make sure you copy and save your PKT address for later
+ - Make a PKT wallet. use [this](https://pkt.cash/wallet/#setup) one. 
+ - Also Make sure you copy and save your PKT address for later in the tutorial.
  - Keep the PKT wallet running while setting up Akash Deployments.
  
 ## Akashlytics and Kepler
