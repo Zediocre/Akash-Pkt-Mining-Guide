@@ -1,51 +1,32 @@
-// Define variables for game elements
-let score = 0;
-let gameStarted = false;
-let gamePaused = false;
-
-// Define function to start the game
-function startGame() {
-  gameStarted = true;
-  gamePaused = false;
-  // Code to start the game goes here
-}
-
-// Define function to pause the game
-function pauseGame() {
-  gamePaused = true;
-  // Code to pause the game goes here
-}
-
-// Define function to resume the game
-function resumeGame() {
-  gamePaused = false;
-  // Code to resume the game goes here
-}
-
-// Define function to end the game
-function endGame() {
-  gameStarted = false;
-  gamePaused = false;
-  // Code to end the game goes here
-  // Update high score if applicable
-  if (score > localStorage.getItem('highScore')) {
-    localStorage.setItem('highScore', score);
-  }
-}
-
-// Define function to update the score
-function updateScore(points) {
-  score += points;
-  // Code to update the score display goes here
-}
-
-// Load high score from local storage
-if (!localStorage.getItem('highScore')) {
-  localStorage.setItem('highScore', 0);
-}
-
-// Define event listeners for game controls
-document.getElementById('start-button').addEventListener('click', startGame);
-document.getElementById('pause-button').addEventListener('click', pauseGame);
-document.getElementById('resume-button').addEventListener('click', resumeGame);
-document.getElementById('end-button').addEventListener('click', endGame);
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clash of Clans Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Clash of Clans Website</h1>
+	</header>
+	<main>
+		<section id="clan-info">
+			<h2>Clan Info</h2>
+			<p>Clan Name: <span id="clan-name">My Clan</span></p>
+			<p>Clan Level: <span id="clan-level">10</span></p>
+			<p>Clan Members: <span id="clan-members">50/50</span></p>
+			<p>Clan War Record: <span id="clan-war-record">10-2</span></p>
+		</section>
+		<section id="player-info">
+			<h2>Player Info</h2>
+			<p>Player Name: <span id="player-name">John Doe</span></p>
+			<p>Player Level: <span id="player-level">50</span></p>
+			<p>Player Trophies: <span id="player-trophies">3000</span></p>
+			<p>Player Clan: <span id="player-clan">My Clan</span></p>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Clash of Clans Website</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
