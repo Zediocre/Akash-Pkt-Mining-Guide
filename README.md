@@ -1,33 +1,51 @@
-![Image2](https://user-images.githubusercontent.com/79159130/131248966-36ae0d51-6def-4693-8165-3d680b37cb30.png)
+// Define variables for game elements
+let score = 0;
+let gameStarted = false;
+let gamePaused = false;
 
+// Define function to start the game
+function startGame() {
+  gameStarted = true;
+  gamePaused = false;
+  // Code to start the game goes here
+}
 
+// Define function to pause the game
+function pauseGame() {
+  gamePaused = true;
+  // Code to pause the game goes here
+}
 
-# Akash/Pkt Mining-Video Guide (in 5 Minutes)
-(IMPORTANT) Please follow along with this easy explination 
-first [here](https://youtu.be/TKkByGqOTiU).
-## 3 Easy Step Video Guide
- 
- - [Setup Pkt wallet](#Setup-Pkt-wallet)
- - [Akashlytics and Kepler](#Akashlytics-and-Kepler )
- - [Deploying On Akash](#Deploying-On-Akash)
-## Setup PKT Wallet
- - Make a PKT wallet. use [this](https://pkt.cash/wallet/#setup) one. 
- - Also Make sure you copy and save your PKT address for later in the tutorial.
- - Keep the PKT wallet running while setting up Akash Deployments.
- 
-## Akashlytics and Kepler
+// Define function to resume the game
+function resumeGame() {
+  gamePaused = false;
+  // Code to resume the game goes here
+}
 
- - Download and install Akashlytics [Here](https://www.akashlytics.com/deploy).
- - Use your Kepler (Or compatible) wallets Memonics for Akash Deploy to sync.
- - Load your Kepler wallet with AKT ( 10 Recomended ).
+// Define function to end the game
+function endGame() {
+  gameStarted = false;
+  gamePaused = false;
+  // Code to end the game goes here
+  // Update high score if applicable
+  if (score > localStorage.getItem('highScore')) {
+    localStorage.setItem('highScore', score);
+  }
+}
 
-## Deploying On Akash
+// Define function to update the score
+function updateScore(points) {
+  score += points;
+  // Code to update the score display goes here
+}
 
- - Copy the contents from [this](https://github.com/ovrclk/pkt-miner/blob/main/deploy.yaml) file.
- - Now go to `Deployments` > `Create Deployment`.
- - Continue forward by pressing Next > then use "Empty".
- - Paste the contents we copied.
- - Swap out the <PKT_WALLET> from `WALLET_ADDR=<PKT_Wallet>` to your wallet. (example in video)
- - Press `Create Deployment`, set fees, and press `Approve`.
- - Done! you should be automatically mining PKT :)
- 
+// Load high score from local storage
+if (!localStorage.getItem('highScore')) {
+  localStorage.setItem('highScore', 0);
+}
+
+// Define event listeners for game controls
+document.getElementById('start-button').addEventListener('click', startGame);
+document.getElementById('pause-button').addEventListener('click', pauseGame);
+document.getElementById('resume-button').addEventListener('click', resumeGame);
+document.getElementById('end-button').addEventListener('click', endGame);
